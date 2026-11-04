@@ -608,13 +608,13 @@ class HiveCoordinator(DataUpdateCoordinator[dict[str, Any]]):
             payload = (
                 r'{"occupied_heating_setpoint_heat":'
                 + str(self.heating_frost_prevention)
-                + r',"temperature_setpoint_hold_heat":"1","temperature_setpoint_hold_duration_heat:"65535"}'
+                + r',"temperature_setpoint_hold_heat":"1","temperature_setpoint_hold_duration_heat":"65535"}'
             )
         else:
             payload = (
                 r'{"occupied_heating_setpoint":'
                 + str(self.heating_frost_prevention)
-                + r',"temperature_setpoint_hold":"1","temperature_setpoint_hold_duration:"65535"}'
+                + r',"temperature_setpoint_hold":"1","temperature_setpoint_hold_duration":"65535"}'
             )
 
         await self._async_publish_set(payload)

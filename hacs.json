@@ -1,7 +1,6 @@
 {
-    "name": "Hive Local Thermostat (HomeDash)",
-    "filename": "hive_local_thermostat.zip",
+    "name": "Hive Local Thermostat (NeilRobbins fork)",
     "hide_default_branch": true,
     "homeassistant": "2025.4.0",
-    "zip_release": true
+    "zip_release": false
 }

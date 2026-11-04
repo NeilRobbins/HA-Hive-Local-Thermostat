@@ -1,5 +1,8 @@
 # Hive Local Thermostat (HomeDash)
 
+> **Fork notice.** Personal fork of [homedashHA/HA-Hive-Local-Thermostat](https://github.com/homedashHA/HA-Hive-Local-Thermostat), pinned to reviewed releases. HACS installs straight from the tagged source (`zip_release: false`), so there is no built artefact. Upstream changes are merged only after review. Release `2.1.0.1` = upstream v2.1.0 plus a fix for the malformed frost-protection payload when switching heating off.
+
+
 Local Hive Thermostat MQTT integration for Home Assistant.
 
 This integration is maintained by [HomeDash](https://github.com/homedashHA). It was originally written by [Andrew Jackson](https://github.com/andrew-codechimp/HA-Hive-Local-Thermostat).
